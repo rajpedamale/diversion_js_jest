@@ -1,7 +1,7 @@
 'use strict';
 
 function diversion() {
-  return '';
+  return 0;
 }
 
 module.exports = diversion;
