@@ -11,4 +11,7 @@ describe('Diversion', () => {
     expect(diversion(1)).toEqual(1);
   });
 
+  it('should return 3 for a 2 digit number', () => {
+    expect(diversion(2)).toEqual(3);
+  });
 });
