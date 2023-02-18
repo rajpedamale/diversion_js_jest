@@ -1,7 +1,7 @@
 'use strict';
 
 function diversion(binaryNumberLength) {
-  return 0;
+  return 1;
 }
 
 module.exports = diversion;
