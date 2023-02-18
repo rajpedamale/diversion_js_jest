@@ -1,66 +1,11 @@
-FAIL ./diversion.test.js
+PASS ./diversion.test.js
   Diversion
-    ✕ should return a number (4 ms)
-    ✕ should return 1 for a single digit number
-    ✕ should return 3 for a 2 digit number (1 ms)
+    ✓ should return a number (3 ms)
+    ✓ should return 1 for a single digit number
+    ✓ should return 3 for a 2 digit number (1 ms)
 
-  ● Diversion › should return a number
-
-    ReferenceError: binLength is not defined
-
-      2 | 
-      3 | function diversion(binaryNumberLength) {
-    > 4 |     if (binLength < 2) return binLength;
-        |     ^
-      5 |     const numbersEndingWith0 = new Array(binLength);
-      6 |     const numbersEndingWith1 = new Array(binLength);
-      7 |     numbersEndingWith0[0] = 1;
-
-      at diversion (diversion.js:4:5)
-      at Object.<anonymous> (diversion.test.js:7:19)
-
-  ● Diversion › should return 1 for a single digit number
-
-    ReferenceError: binLength is not defined
-
-      2 | 
-      3 | function diversion(binaryNumberLength) {
-    > 4 |     if (binLength < 2) return binLength;
-        |     ^
-      5 |     const numbersEndingWith0 = new Array(binLength);
-      6 |     const numbersEndingWith1 = new Array(binLength);
-      7 |     numbersEndingWith0[0] = 1;
-
-      at diversion (diversion.js:4:5)
-      at Object.<anonymous> (diversion.test.js:11:12)
-
-  ● Diversion › should return 3 for a 2 digit number
-
-    ReferenceError: binLength is not defined
-
-      2 | 
-      3 | function diversion(binaryNumberLength) {
-    > 4 |     if (binLength < 2) return binLength;
-        |     ^
-      5 |     const numbersEndingWith0 = new Array(binLength);
-      6 |     const numbersEndingWith1 = new Array(binLength);
-      7 |     numbersEndingWith0[0] = 1;
-
-      at diversion (diversion.js:4:5)
-      at Object.<anonymous> (diversion.test.js:15:12)
-
-Test Suites: 1 failed, 1 total
-Tests:       3 failed, 3 total
+Test Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
 Snapshots:   0 total
-Time:        1.416 s
+Time:        1.408 s
 Ran all test suites.
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! @ test: `jest --coverage`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the @ test script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/sandbox/.npm/_logs/2023-02-18T22_02_26_430Z-debug.log

@@ -1,6 +1,6 @@
 'use strict';
 
-function diversion(binaryNumberLength) {
+function diversion(binLength) {
     if (binLength < 2) return binLength;
     const numbersEndingWith0 = new Array(binLength);
     const numbersEndingWith1 = new Array(binLength);
