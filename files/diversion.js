@@ -1,6 +1,6 @@
 'use strict';
 
-function diversion(binaryNumber) {
+function diversion(binaryNumberLength) {
   return 0;
 }
 
