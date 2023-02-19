@@ -1,7 +1,8 @@
 'use strict';
 
 function diversion(binLength) {
-    if (binLength < 2) return binLength;
+    if (binLength === 0) return 0;
+    if (binLength === 1) return 2;
     const numbersEndingWith0 = new Array(binLength);
     const numbersEndingWith1 = new Array(binLength);
     numbersEndingWith0[0] = 1;
